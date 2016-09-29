@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ALL ABOUT FRUITS</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+</head>
+
+<body id="quiz">
+	<header class="clearfix">
+		<div id="container">
+			<h1><a href="index.html">all about fruits!</a></h1>
+		</div>
+	</header>
+
+	<nav class="navbuttons">
+		<p>
+			<button class="button next" id="next">NEXT</button>
+			<button class="button cancel" id="cancel"><a href="index.html">CANCEL</a></button>
+		</p>
+	</nav>
+
+	<main>
+		<div id="container">
+			<section class="questions">
+				<div class="questionsPanel">
+					<div id="score">Score:</div>
+					<div id="scoreResult">0</div>
+					<div id="qn"> </div>
+					<div class="choiceList">
+						<button class="choicesbtn"></button>
+						<button class="choicesbtn"></button>
+						<button class="choicesbtn"></button>
+						<button class="choicesbtn"></button>
+					</div>
+					<div class="hint">
+						<p id="hintText">
+							Hint: The background image of each questions might represent the correct answer!
+						</p>
+					</div>
+				</div>
+				<div class="msg">
+					<p class="wrongmsg"></p>
+					<p class="correctmsg"></p>
+					<p class="endQuiz">Thank you for taking part in the quiz! <br> You have successfully completed the quiz!<br>The total score is: </p>
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<span>&copy; 2016 Lee Yee Design.</span>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="js/fruitsquiz.js"></script>
+</body>
+
+</html>
