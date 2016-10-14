@@ -16,7 +16,7 @@ $(document).ready(function() {
                 text: 'Plum'
             }],
             answer: 0,
-            detail: '<span id="colorRed">Dragon Fruit</span>. <br> It is also known as Pitaya. Its flowers bloom only at night and hence, it is called Moonflower. Vietman is currently the main exporter of this fruit. <br> When you are eating Dragon Fruit the next time, do remember the interesting story behind it. Learn more about <a target="_blank" href="http://eresources.nlb.gov.sg/infopedia/articles/SIP_768_2005-01-11.html">Dragon Fruit</a>.'
+            detail: '<span id="colorRed">Dragon Fruit</span>. <br> It is also known as Pitaya. Its flowers bloom only at night and hence, it is called Moonflower. Vietman is currently the main exporter of this fruit. <br> When you are eating Dragon Fruit the next time, do remember the interesting story behind it. Learn more about <a target="_blank" class="expRes" href="http://eresources.nlb.gov.sg/infopedia/articles/SIP_768_2005-01-11.html">Dragon Fruit</a>.'
         }, {
             question: 'Based on the options given, select the fruit that contain a enzyme called Papain. It can be used to tenderize meat.',
             choices: [{
@@ -33,7 +33,7 @@ $(document).ready(function() {
                 text: 'Pear'
             }],
             answer: 2,
-            detail: '<span id="colorRed">Papaya</span>. <br> Apart from the above benefits, Papain found in Papaya is also used as natural exfoliant to remove dead skin cells! Discover more on <a target="_blank" href="http://superfoodprofiles.com/papaya-enzymes-digestion">Papaya</a>.'
+            detail: '<span id="colorRed">Papaya</span>. <br> Apart from the above benefits, Papain found in Papaya is also used as natural exfoliant to remove dead skin cells! Discover more on <a target="_blank" class="expRes" href="http://superfoodprofiles.com/papaya-enzymes-digestion">Papaya</a>.'
         }, {
             question: 'What is the fruit that has its branches made as wreaths at Olympic Games to congratulate champions?',
             choices: [{
@@ -50,7 +50,7 @@ $(document).ready(function() {
                 text: 'Fig'
             }],
             answer: 2,
-            detail: '<span id="colorRed">Olive</span>. <br> Olive branch also symbolizes Peace in Greek culture. Today, it is more famous for its health properties. Read more about <a target="_blank" href="http://justfunfacts.com/interesting-facts-about-olives/">Olives</a>.'
+            detail: '<span id="colorRed">Olive</span>. <br> Olive branch also symbolizes Peace in Greek culture. Today, it is more famous for its health properties. Read more about <a target="_blank" class="expRes" href="http://justfunfacts.com/interesting-facts-about-olives/">Olives</a>.'
         }, {
             question: 'Blueberries are known to be rich in a type of flavonoid making them appear deep blue. What are they? ',
             choices: [{
@@ -67,7 +67,7 @@ $(document).ready(function() {
                 text: 'Anthocyanidins'
             }],
             answer: 3,
-            detail: '<span id="colorRed">Anthocyanidins</span>. <br> Do not be afraid of those scientific terms! They are antioxidants available in different fruits, vegtables and sometimes teas! Green tea, for example, have Catechins. <a target="_blank" href="http://www.whfoods.com/genpage.php?tname=nutrient&dbid=119">Flavonoid FTW</a>!'
+            detail: '<span id="colorRed">Anthocyanidins</span>. <br> Do not be afraid of those scientific terms! They are antioxidants available in different fruits, vegtables and sometimes teas! Green tea, for example, have Catechins. <a target="_blank" class="expRes" href="http://www.whfoods.com/genpage.php?tname=nutrient&dbid=119">Flavonoid FTW</a>!'
         }, {
             question: 'Identify the fruit listed below that is commonly mistaken as vegetable.',
             choices: [{
@@ -84,7 +84,7 @@ $(document).ready(function() {
                 text: 'Kale'
             }],
             answer: 1,
-            detail: '<span id="colorRed">Cucumber</span>. <br> Surprise surprise! Cucumber have always been assumed as Vegtable, but technically because it have seeds, it is classified as Fruits. <a target="_blank" href="http://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-blog/fruit-vegetable-difference/bgp-20056141">Other clarification here</a>!'
+            detail: '<span id="colorRed">Cucumber</span>. <br> Surprise surprise! Cucumber have always been assumed as Vegtable, but technically because it have seeds, it is classified as Fruits. <a target="_blank" class="expRes" href="http://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-blog/fruit-vegetable-difference/bgp-20056141">Other clarification here</a>!'
         }, {
             question: 'Given the list shown below, choose the fruit with highest amount of Calcium.',
             choices: [{
@@ -101,7 +101,7 @@ $(document).ready(function() {
                 text: 'Raspberry'
             }],
             answer: 1,
-            detail: '<span id="colorRed">Blackcurrant</span>. <br> Apart from Milk, there are other calcium-rich foods available. The choices listed all contain Calcium. Find out the other <a target="_blank" href="https://www.healthaliciousness.com/articles/high-calcium-fruits.php">fruits containing Calcium</a>. The next time you yearn milk, do give other calcium-filled fruits a try!'
+            detail: '<span id="colorRed">Blackcurrant</span>. <br> Apart from Milk, there are other calcium-rich foods available. The choices listed all contain Calcium. Find out the other <a target="_blank" class="expRes" href="https://www.healthaliciousness.com/articles/high-calcium-fruits.php">fruits containing Calcium</a>. The next time you yearn milk, do give other calcium-filled fruits a try!'
         }, {
             question: 'All fruits contain sugar called Fructose. Select the fruit listed below that has the highest content of sugar (per cup).',
             choices: [{
@@ -118,7 +118,7 @@ $(document).ready(function() {
                 text: 'Pineapple'
             }],
             answer: 2,
-            detail: '<span id="colorRed">Lychee</span>. <br> Hey, sweet tooth! Replace your sweet snacks with <a target="_blank" href="http://www.womenshealthmag.com/food/high-low-sugar-fruits/slide/2">some fruits</a> here. Remember fruits are advised to be eaten in moderation. Excess servings might bring adverse effect.'
+            detail: '<span id="colorRed">Lychee</span>. <br> Hey, sweet tooth! Replace your sweet snacks with <a target="_blank" class="expRes" href="http://www.womenshealthmag.com/food/high-low-sugar-fruits/slide/2">some fruits</a> here. Remember fruits are advised to be eaten in moderation. Excess servings might bring adverse effect.'
         }, {
             question: 'Identify the country which Peach was first originated from.',
             choices: [{
@@ -135,7 +135,7 @@ $(document).ready(function() {
                 text: 'Turkey'
             }],
             answer: 0,
-            detail: '<span id="colorRed">China</span>. <br> Peaches are not only tender and juicy, but it also represent longevity in Chinese culture. Check out <a target="_blank" href="http://www.npm.gov.tw/exh94/form9407/english/page02_06.html">the association of Peach and Immortality</a>.'
+            detail: '<span id="colorRed">China</span>. <br> Peaches are not only tender and juicy, but it also represent longevity in Chinese culture. Check out <a target="_blank" class="expRes" href="http://www.npm.gov.tw/exh94/form9407/english/page02_06.html">the association of Peach and Immortality</a>.'
         }
 
     ];
@@ -159,8 +159,8 @@ $(document).ready(function() {
 
     $('#next').click(function() {
         $(this).slideUp();
-        $(".wrongmsg").hide();
-        $(".correctmsg").hide();
+        $(".wrongmsg").slideUp();
+        $(".correctmsg").slideUp();
         if ((currentIndex < images.length - 1) && (currentIndex < setOfQns.length - 1)) {
             currentIndex = currentIndex + 1;
         } else {
@@ -234,4 +234,10 @@ $(document).ready(function() {
         $('.msg').removeClass("correctmsg");
         $('.msg').removeClass("wrongmsg");
     }
+
+    if (window.matchMedia('(max-width: 1000px)').matches) {
+        $("button").removeClass("bounceInLeft").addClass("bounceInDown");
+    }
+
+
 });

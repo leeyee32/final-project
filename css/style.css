@@ -53,10 +53,8 @@ body {
     margin: 0 auto;
     clear: right;
 }
-a {
+a, a:visited, a:hover, a:active {
     text-decoration: none;
-}
-a:visited {
     color: #fff;
 }
 header, footer {
@@ -78,7 +76,7 @@ footer {
     border-top: #ccba85 dotted 2px;
     font-size: 10px;
 }
-header h1, footer {
+header, footer {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
 }
@@ -86,9 +84,11 @@ header a {
     color: #fff;
 }
 header:hover {
+    background-color: #cdcdcd;
     background-color: rgba( 0, 0, 0, 0.1);
 }
 footer:hover {
+    background-color: #cdcdcd;
     background-color: rgba( 0, 0, 0, 0.0);
 }
 #introquote {
@@ -130,13 +130,16 @@ blockquote::after {
     font-size: 14px;
     font-weight: 800;
     font-family: 'Oswald', sans-serif;
+    box-shadow: 0 0 50px #fff;
 }
 .begin {
     color: #fff;
     background-color: #009874;
     border: #ccba85 dotted 1px;
-    box-shadow: 0 0 10px rgba(133, 204, 186, 0.8);
     transition: background-color 0.5s ease-in-out;
+    -webkit-animation-duration: 2.5s;
+    -moz-animation-duration: 2.5s;
+    animation-duration: 2.5s;
 }
 .begin:hover {
     font-size: 16px;
@@ -167,6 +170,7 @@ blockquote::after {
 .questions {
     max-width: 100%;
     padding: 5px;
+    background: rgb(198, 226, 218);
     background: rgba(198, 226, 218, .7);
     border-radius: 5px;
     color: #707070;
@@ -194,6 +198,16 @@ blockquote::after {
 }
 .choicesbtn:hover {
     background-color: #ffcc99;
+}
+a.expRes {
+    color: #8c4799;
+    transition: background 0.8s ease;
+}
+a.expRes:hover {
+    background-color: #8c4799;
+    color: #fff;
+    padding: 3px;
+    border-radius: 5px;
 }
 #colorRed {
     color: #ad5d5d;
@@ -241,7 +255,7 @@ blockquote::after {
     .choicesbtn {
         display: block;
         margin: 15px auto;
-        width: 250px;
+        width: 350px;
     }
 }
 
